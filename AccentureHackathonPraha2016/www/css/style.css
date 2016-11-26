@@ -33,7 +33,7 @@
     top: 169px;
 }
 
-.card-container {
+/*.card-container {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -42,4 +42,13 @@
 	max-width: 750px;
 	margin-left: auto;
 	margin-right: auto;
+}*/
+.card-container {
+	width: 100%;
+	float: left;
+}
+@media screen and (min-width: 10000px) {
+    .responsive-card {
+        width: 25%;
+    }
 }

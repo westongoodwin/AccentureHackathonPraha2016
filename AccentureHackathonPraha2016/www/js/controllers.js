@@ -53,25 +53,4 @@ angular.module('starter.controllers', [])
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
-})
-
-.controller('Cards', function($scope) {
-	$scope.listings = [
-		{
-			name: 'user1',
-			dateAdded: new Date('2016', '11', '26'),
-			avatar: 'http://borgenproject.org/wp-content/uploads/Third-World-Country.jpg',
-			image: 'http://www.keepbusy.net/pics/pic-dump-146-17.jpg',
-			details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae gravida lorem. Nulla lacinia tortor est, ac consequat purus mollis placerat. Proin a lorem ut est consequat molestie ultrices ut dui. Cras lobortis ante eget ex fermentum pretium. Maecenas pellentesque quam tellus, nec imperdiet neque aliquam sit amet. Fusce tincidunt viverra magna et vehicula. Fusce tincidunt, nisl eu posuere cursus, nunc justo tincidunt ante, sed scelerisque erat leo vel risus. Ut viverra, ligula in commodo vestibulum, enim mi lacinia ipsum, sed volutpat nulla massa at lectus. Nam posuere aliquet tristique. Ut pharetra lacus quis ipsum mattis, et fermentum ipsum viverra. Nam finibus lorem vitae tellus dictum, eget pretium nibh ornare. Fusce sed lacinia lacus, ac gravida ante. Vivamus cursus tortor ac tempor facilisis.',
-			fundingStatus: 0 //this is a percentage value
-		},
-		{
-			name: 'user2',
-			dateAdded: new Date('2016', '11', '26'),
-			avatar: 'http://borgenproject.org/wp-content/uploads/Third-World-Country.jpg',
-			image: 'http://www.keepbusy.net/pics/pic-dump-146-17.jpg',
-			details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae gravida lorem. Nulla lacinia tortor est, ac consequat purus mollis placerat. Proin a lorem ut est consequat molestie ultrices ut dui. Cras lobortis ante eget ex fermentum pretium. Maecenas pellentesque quam tellus, nec imperdiet neque aliquam sit amet. Fusce tincidunt viverra magna et vehicula. Fusce tincidunt, nisl eu posuere cursus, nunc justo tincidunt ante, sed scelerisque erat leo vel risus. Ut viverra, ligula in commodo vestibulum, enim mi lacinia ipsum, sed volutpat nulla massa at lectus. Nam posuere aliquet tristique. Ut pharetra lacus quis ipsum mattis, et fermentum ipsum viverra. Nam finibus lorem vitae tellus dictum, eget pretium nibh ornare. Fusce sed lacinia lacus, ac gravida ante. Vivamus cursus tortor ac tempor facilisis.',
-			fundingStatus: 0
-		}
-	];
 });
