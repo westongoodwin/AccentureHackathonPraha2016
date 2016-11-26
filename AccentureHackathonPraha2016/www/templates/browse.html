@@ -1,26 +1,30 @@
 <ion-view view-title="Browse">
   <ion-content>
+	  <div id="greeting">
+		  <h1 class="bar-dark">Welcome to {AppName}, where you can help others or bicker for hours on end</h1>
+	  </div>
 	  <div class="card-container" ng-controller="Cards">
 		  <div ng-repeat="listing in listings">
+		  <a class=card-link href="#/app/playlists">
+		  <div class="list card responsive-card">
 			  <!--Make this card ng-repeat for a controller array and link to a specific description/funding page-->
-			<div class="list card">
-
-			    <div class="item item-avatar">
-			      <img src={{listing.avatar}}>
+			  <div class="item item-avatar">
+				  <img src={{listing.avatar}}>
 			      <h2>{{listing.name}}</h2>
 			      <p>{{listing.dateAdded | date}}</p>
-			    </div>
+			  </div>
 
-			    <div class="item item-body">
-			      <img class="full-image" src={{listing.image}}>
+			  <div class="item item-body">
+				  <img class="full-image" src={{listing.image}}>
 			      <p>{{ listing.details }}</p>
-			  	</div>
-			    <div class="item item-divider">
-					<p>Status: {{ listing.fundingStatus }}% funded</p>
-			    </div>
+			  </div>
+			  <div class="item item-divider">
+				  <p>Status: {{ listing.fundingStatus }}% funded</p>
+			  </div>
 
-	  		</div>
-		</div>
+		  </div>
+	      </a>
+		  </div>
 	</div>
   </ion-content>
 </ion-view>
