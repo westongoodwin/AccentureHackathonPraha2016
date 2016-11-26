@@ -15,59 +15,6 @@ $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
-.bar.bar-profile {
-  background-color: #444;
-  height: 170px; }
-
-.bar .profile {
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 0;
-  overflow: hidden;
-  text-align: center;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  width: 100%;
-  padding-top: 15px; }
-
-.profile .name {
-  color: #FFFFFF;
-  margin-top: 10px !important;
-  margin-bottom: 10px !important; }
-
-.profile-picture {
-  border-radius: 50%;
-  height: 65%;
-  width: auto; }
-
-.menu .has-header {
-  top: 169px; }
-
-.card-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  max-width: 900px;
-  margin-top: 100vh;
-  margin-left: auto;
-  margin-right: auto; }
-
-.card-link {
-  text-decoration: none; }
-
-#greeting {
-  background-color: #444444;
-  color: white;
-  height: 100vh;
-  text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  display: flex;
-  align-items: center; }
-
 /*!
   Ionicons, v2.0.1
   Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
@@ -9867,3 +9814,59 @@ a.button {
   opacity: 0;
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
+
+.bar.bar-profile {
+  background-color: #444;
+  height: 170px; }
+
+.bar .profile {
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  padding-top: 15px; }
+
+.profile .name {
+  color: #FFFFFF;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important; }
+
+.profile-picture {
+  border-radius: 50%;
+  height: 65%;
+  width: auto; }
+
+.menu .has-header {
+  top: 169px; }
+
+.card-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-width: 900px;
+  margin-top: 100vh;
+  margin-left: auto;
+  margin-right: auto; }
+
+.card-link {
+  text-decoration: none; }
+
+#greeting {
+  height: 90vh;
+  width: 100vw;
+  font-size: 2em;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; }
+
+h1 {
+  text-align: center; }

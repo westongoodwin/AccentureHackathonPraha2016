@@ -14,6 +14,13 @@ $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
+
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
 .bar.bar-profile {
     background-color: #444;
     height: 170px;
@@ -66,14 +73,17 @@ $dark:                            #444 !default;
 }
 
 #greeting {
-	background-color: #444444;
-	color: white;
-	height: 100vh;
-	text-align: center;
+	height: 90vh;
+	width: 100vw;
+	font-size: 2em;
 	padding-left: 10%;
 	padding-right: 10%;
-	display: flex;
-	align-items: center;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+h1 {
+	text-align: center;
 }
 
 //
@@ -86,9 +96,3 @@ $dark:                            #444 !default;
 //         max-width: 30%;
 //     }
 // }
-
-// The path for our ionicons font files, relative to the built CSS in www/css
-$ionicons-font-path: "../lib/ionic/fonts" !default;
-
-// Include all of Ionic
-@import "www/lib/ionic/scss/ionic";
