@@ -62,10 +62,9 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	max-width: 900px;
 	margin-top: 100vh;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 a {
@@ -95,13 +94,28 @@ a {
 	margin-right: 20%;
 }
 
-//
-// .responsive-card {
-//     width: 9%;
-// 	float: left;
-// }
-// @media screen and (min-width: 1000px) {
-//     .responsive-card {
-//         max-width: 30%;
-//     }
-// }
+.card,
+.list-inset {
+  overflow: hidden;
+  margin: 10px .5%!important;
+}
+
+.responsive-card {
+    width: 100%;
+	float: left;
+}
+@media screen and (min-width: 600px) {
+	.responsive-card {
+		max-width: 49%;
+	}
+}
+@media screen and (min-width: 850px) {
+	.responsive-card {
+		max-width: 32.3333%;
+	}
+}
+@media screen and (min-width: 1000px) {
+    .responsive-card {
+        max-width: 24%;
+    }
+}
