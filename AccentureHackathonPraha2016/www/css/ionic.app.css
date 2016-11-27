@@ -9910,9 +9910,11 @@ a {
 
 .user-picture {
   border-radius: 50%;
-  max-width: 30%;
+  width: auto;
   margin-top: 10%;
-  margin-bottom: 10%; }
+  margin-bottom: 10%;
+  display: block;
+  margin: 0 auto; }
 
 #portfolio-page {
   position: absolute;
