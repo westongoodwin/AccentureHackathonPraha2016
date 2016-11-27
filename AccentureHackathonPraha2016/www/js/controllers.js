@@ -89,7 +89,7 @@ angular.module('starter.controllers', [])
 			id: 3
 		},
 		{
-			name: 'user1',
+			name: 'Jim from Iran',
 			title: 'New Bike',
 			dateAdded: new Date('2016', '11', '26'),
 			avatar: 'http://borgenproject.org/wp-content/uploads/Third-World-Country.jpg',
