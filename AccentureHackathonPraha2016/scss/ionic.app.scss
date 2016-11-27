@@ -128,15 +128,11 @@ a {
 	max-width: 750px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 30px;
 }
-
 .user-picture {
 	border-radius: 50%;
-	width:auto;
-	margin-top: 10%;
-	margin-bottom: 10%;
-	display: block;
-	margin: 0 auto;
+	max-width: 40%
 }
 #portfolio-page {
 	position: absolute;
@@ -147,4 +143,28 @@ a {
 	max-width: 750px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.full-image {
+	height:300px;
+}
+.short-description {
+	height:150px;
+}
+
+#thank-you {
+	position: absolute;
+	padding-top: 20%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	max-width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#check {
+	height: 256px;
+	width: 256px;
+	text-align: center;
 }

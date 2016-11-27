@@ -1,0 +1,31 @@
+<ion-view view-title="Browse">
+  <ion-content>
+	  <div class="text-center" id="greeting">
+		  <h1 class="light" id="intro-title">Welcome to DonateYard!</h1>
+		  <p class="light">Start donating right away.</p>
+	  </div>
+	  <div class="card-container" ng-controller="Cards">
+		  <div ng-repeat="listing in listings">
+		  <a ng-click="listingPage(listing)" href="#/app/playlists/{{listing.id}}">
+		  <div class="list card responsive-card">
+			  <!--Make this card ng-repeat for a controller array and link to a specific description/funding page-->
+			  <div class="item item-avatar">
+				  <img src={{listing.avatar}}>
+			      <h2>{{listing.name}}</h2>
+			      <p>{{listing.dateAdded | date}}</p>
+			  </div>
+
+			  <div class="item item-body">
+				  <img class="full-image" src={{listing.image}}>
+			      <p>{{ listing.details }}</p>
+			  </div>
+			  <div class="item item-divider">
+				  <p class="text-center">{{listing.raised | currency}} of {{listing.requested | currency}} raised</p>
+			  </div>
+
+		  </div>
+	      </a>
+		  </div>
+	</div>
+  </ion-content>
+</ion-view>

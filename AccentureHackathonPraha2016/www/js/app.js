@@ -32,11 +32,11 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     controller: 'AppCtrl'
   })
 
-  .state('login', {
-	  url: '/login',
+  .state('app.donated', {
+	  url: '/donated',
 	  views: {
 		  'menuContent': {
-			  templateUrl: 'templates/login.html'
+			  templateUrl: 'templates/donated.html'
 		  }
 	  }
   })

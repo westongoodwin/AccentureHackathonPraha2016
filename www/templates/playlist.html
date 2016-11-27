@@ -1,0 +1,19 @@
+<ion-view view-title="{{listing.name}}'s Listing">
+  <div class="listingView" ng-controller="Listing">
+	  <div class="list card">
+		  <div class="item item-image">
+		  	<img src={{listing.image}}>
+		  </div>
+		  <div class="item item-text-wrap">
+			<h2 class="text-left">{{listing.title}}</h2>
+		    <p>{{listing.details}}</p>
+		  </div>
+	  </div>
+	  <div class="item item-divider">
+    	<p class="text-center">{{listing.raised | currency}} of {{listing.requested | currency}} raised</p>
+  	  </div>
+	  <button ng-click="login()" class="button button-full button-balanced">
+		  <p>Donate!</p>
+	  </button>
+  </div>
+</ion-view>
