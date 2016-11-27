@@ -20,7 +20,7 @@
 			      <p>{{ listing.details }}</p>
 			  </div>
 			  <div class="item item-divider">
-				  <p>Status: {{ listing.fundingStatus }}% funded</p>
+				  <p class="text-center">{{listing.raised | currency}} of {{listing.requested | currency}} raised</p>
 			  </div>
 
 		  </div>

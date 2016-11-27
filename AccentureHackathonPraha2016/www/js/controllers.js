@@ -60,59 +60,72 @@ angular.module('starter.controllers', [])
 	$scope.listings = [
 		{
 			name: 'user1',
+			title: 'New Bike',
 			dateAdded: new Date('2016', '11', '26'),
 			avatar: 'http://borgenproject.org/wp-content/uploads/Third-World-Country.jpg',
 			image: 'http://www.keepbusy.net/pics/pic-dump-146-17.jpg',
 			details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae gravida lorem. Nulla lacinia tortor est, ac consequat purus mollis placerat. Proin a lorem ut est consequat molestie ultrices ut dui. Cras lobortis ante eget ex fermentum pretium.',
-			fundingStatus: 0, //this is a percentage value
+			raised:0,
+			requested:10,
 			id: 1
 		},
 		{
 			name: 'user2',
+			title: 'New Bike',
 			dateAdded: new Date('2016', '11', '26'),
 			avatar: 'http://borgenproject.org/wp-content/uploads/Third-World-Country.jpg',
 			image: 'http://www.keepbusy.net/pics/pic-dump-146-17.jpg',
 			details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae gravida lorem. Nulla lacinia tortor est, ac consequat purus mollis placerat. Proin a lorem ut est consequat molestie ultrices ut dui. Cras lobortis ante eget ex fermentum pretium.',
-			fundingStatus: 0,
+			raised:0,
+			requested:10,
 			id: 2
 		},
 		{
 			name: 'user1',
+			title: 'New Bike',
 			dateAdded: new Date('2016', '11', '26'),
 			avatar: 'http://borgenproject.org/wp-content/uploads/Third-World-Country.jpg',
 			image: 'http://www.keepbusy.net/pics/pic-dump-146-17.jpg',
 			details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae gravida lorem. Nulla lacinia tortor est, ac consequat purus mollis placerat. Proin a lorem ut est consequat molestie ultrices ut dui. Cras lobortis ante eget ex fermentum pretium.',
-			fundingStatus: 0, //this is a percentage value
+			raised:0,
+			requested:10,
 			id: 3
 		},
 		{
 			name: 'user1',
+			title: 'New Bike',
 			dateAdded: new Date('2016', '11', '26'),
 			avatar: 'http://borgenproject.org/wp-content/uploads/Third-World-Country.jpg',
 			image: 'http://www.keepbusy.net/pics/pic-dump-146-17.jpg',
 			details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae gravida lorem. Nulla lacinia tortor est, ac consequat purus mollis placerat. Proin a lorem ut est consequat molestie ultrices ut dui. Cras lobortis ante eget ex fermentum pretium.',
-			fundingStatus: 0, //this is a percentage value
+			raised:0,
+			requested:10,
 			id: 4
 		},
 		{
 			name: 'user1',
+			title: 'New Bike',
 			dateAdded: new Date('2016', '11', '26'),
 			avatar: 'http://borgenproject.org/wp-content/uploads/Third-World-Country.jpg',
 			image: 'http://www.keepbusy.net/pics/pic-dump-146-17.jpg',
 			details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae gravida lorem. Nulla lacinia tortor est, ac consequat purus mollis placerat. Proin a lorem ut est consequat molestie ultrices ut dui. Cras lobortis ante eget ex fermentum pretium.',
-			fundingStatus: 0, //this is a percentage value
+			raised:0,
+			requested:10,
 			id: 5
 		},
 		{
 			name: 'user1',
+			title: 'New Bike',
 			dateAdded: new Date('2016', '11', '26'),
 			avatar: 'http://borgenproject.org/wp-content/uploads/Third-World-Country.jpg',
 			image: 'http://www.keepbusy.net/pics/pic-dump-146-17.jpg',
 			details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae gravida lorem. Nulla lacinia tortor est, ac consequat purus mollis placerat. Proin a lorem ut est consequat molestie ultrices ut dui. Cras lobortis ante eget ex fermentum pretium.',
-			fundingStatus: 0, //this is a percentage value
+			raised:0,
+			requested:10,
 			id: 6
 		},
 	];
+
 	$scope.listingPage = function(listing) {
 		$rootScope.listing = listing;
 		console.log($rootScope.listing);
