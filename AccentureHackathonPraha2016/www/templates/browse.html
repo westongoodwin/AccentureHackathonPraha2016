@@ -2,7 +2,13 @@
   <ion-content>
 	  <div class="text-center" id="greeting">
 		  <h1 class="light" id="intro-title">Welcome to Charitas!</h1>
-		  <a href="#card-location"><p class="light">Start donating right away.</p></a>
+		  <a id="slogan" href="#card-location"><p class="light">Start donating the right way.<br><br><br></p></a>
+		  <div class="list list-inset">
+			  <label class="item item-input">
+			    <i class="icon ion-search placeholder-icon"></i>
+			    <input type="text" placeholder="Search">
+			  </label>
+		  </div>
 	  </div>
 	  <div class="card-container" ng-controller="Cards">
 		  <div ng-repeat="listing in listings">
