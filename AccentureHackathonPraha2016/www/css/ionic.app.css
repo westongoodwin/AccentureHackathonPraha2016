@@ -9897,3 +9897,6 @@ a {
 @media screen and (min-width: 1000px) {
   .responsive-card {
     max-width: 24%; } }
+
+.listing-image {
+  max-width: 750px;

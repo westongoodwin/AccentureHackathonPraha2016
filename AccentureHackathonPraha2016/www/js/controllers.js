@@ -55,7 +55,8 @@ angular.module('starter.controllers', [])
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 })
 
-.controller('Cards', function($scope) {
+.controller('Cards', function($scope, $rootScope) {
+	$scope.currentListing = null;
 	$scope.listings = [
 		{
 			name: 'user1',
@@ -112,6 +113,14 @@ angular.module('starter.controllers', [])
 			id: 6
 		},
 	];
+	$scope.listingPage = function(listing) {
+		$rootScope.listing = listing;
+		console.log($rootScope.listing);
+	};
+})
+
+.controller('Listing', function($scope, $rootScope) {
+	$scope.listing = $rootScope.listing;
 })
 
 .controller('User', function($scope) {

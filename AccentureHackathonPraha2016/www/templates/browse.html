@@ -6,7 +6,7 @@
 	  </div>
 	  <div class="card-container" ng-controller="Cards">
 		  <div ng-repeat="listing in listings">
-		  <a href="#/app/playlists/{{listing.id}}">
+		  <a ng-click="listingPage(listing)" href="#/app/playlists/{{listing.id}}">
 		  <div class="list card responsive-card">
 			  <!--Make this card ng-repeat for a controller array and link to a specific description/funding page-->
 			  <div class="item item-avatar">

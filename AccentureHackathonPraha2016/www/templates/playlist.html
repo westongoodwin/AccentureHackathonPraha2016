@@ -1,6 +1,10 @@
-<ion-view view-title="Listing">
-  <ion-content>
-	  <h1 id="listing-title"></h1>
-	  <p id='listing-details'></h1>
+<ion-view view-title="{{listing.name}}'s Listing">
+  <ion-content ng-controller="Listing">
+	  <ion-card>
+		  <img src={{listing.image}}>
+		  <ion-card-content>
+			  <p>{{listing.details}}</p>
+		  </ion-card-content>
+	  </ion-card>
   </ion-content>
 </ion-view>
