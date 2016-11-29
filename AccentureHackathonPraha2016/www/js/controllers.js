@@ -124,7 +124,7 @@ angular.module('starter.controllers', [])
 
 .controller('User', function($scope) {
 	//Get these from the backend
-	$scope.name = 'Samuel Hošovský';
+	$scope.name = 'David Rektorys';
 	$scope.picture = 'https://x1.xingassets.com/assets/frontend_minified/img/users/nobody_m.original.jpg';
 })
 
